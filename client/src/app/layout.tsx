@@ -11,6 +11,9 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Learing managenemt",
   description: "Learing managenemt project By next",
+  icons: {
+    icon: "/download.png",
+  },
 };
 
 export default function RootLayout({
