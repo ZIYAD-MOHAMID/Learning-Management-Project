@@ -1,0 +1,26 @@
+C:\Users\10>cd /d E:\DynamoDB 
+C:\Users\10>java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+_______________________
+
+C:\Users\10>aws configure
+How to Configure AWS CLI for DynamoDB Local
+When running: aws configure
+
+Use these values:
+AWS Access Key ID → fakeAccessKey
+AWS Secret Access Key → fakeSecretKey
+Default region name → us-east-1
+Default output format → Press Enter (default: json)
+
+Test the Setup
+After configuring, try:
+
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+after setup the package.json
+npx tsc --init
+
+
+toDO :
+dynamoose schema LARNING
